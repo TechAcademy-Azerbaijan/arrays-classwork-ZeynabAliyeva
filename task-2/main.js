@@ -4,6 +4,12 @@ prompt.start();
 
 prompt.get('input', function (err, result) {
   
-    // Write code here
-  
+   let n = result.input.split(" ")
+   let largest = 0;
+   for(let i =0; i<n.length; i++){
+    if(n[i]>largest){
+        largest=n[i]
+    }
+   }
+   console.log(largest);
 });
