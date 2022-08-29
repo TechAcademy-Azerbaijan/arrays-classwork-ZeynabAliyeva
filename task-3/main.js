@@ -13,5 +13,4 @@ prompt.get('input', function (err, result) {
          }
          console.log(parseInt(sum));
     }
-    
 });

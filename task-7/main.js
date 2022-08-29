@@ -10,7 +10,5 @@ prompt.get('input', function (err, result) {
          if(n[i] % 2 !== 0){
              console.log(n[i]);
          }
-        
     }
-    
 });

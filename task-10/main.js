@@ -19,5 +19,6 @@ prompt.get('input', function (err, result) {
           
       }
   }
-    console.log(parseInt(sum));
+  let cvb = sum+max
+    console.log(parseInt(cvb));
 });
