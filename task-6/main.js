@@ -22,8 +22,6 @@ prompt.get('input', function (err, result) {
     }
     console.log(`${max}\n${min}`);
     }
-    
-       
 });
    
    

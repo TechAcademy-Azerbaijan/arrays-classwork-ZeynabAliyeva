@@ -17,4 +17,6 @@ prompt.get('input', function (err, result) {
           second_max=parseInt(n[i])
       }
   }
+    let sum = second_max+max
+    console.log(sum);
 });

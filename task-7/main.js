@@ -10,4 +10,5 @@ prompt.get('input', function (err, result) {
              console.log(n[i]);
          }    
     }
+    
 });

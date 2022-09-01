@@ -10,5 +10,5 @@ prompt.get('input', function (err, result) {
         let element = n[i]
         arr.unshift(element)
     }
-    console.log(arr.join(" "));
+    console.log(arr.join(" "))
     });
