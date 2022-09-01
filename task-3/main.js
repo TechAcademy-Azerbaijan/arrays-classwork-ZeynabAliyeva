@@ -14,5 +14,6 @@ prompt.get('input', function (err, result) {
             arr.push(element)
         }
     }
+    
     console.log(arr.join(" "));
 });

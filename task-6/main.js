@@ -18,8 +18,7 @@ prompt.get('input', function (err, result) {
             }
             if(n[i]<=min){
                 min=parseInt(n[i])
-             }
-             
+             }     
     }
     console.log(`${max}\n${min}`);
     }

@@ -9,7 +9,6 @@ prompt.get('input', function (err, result) {
     for(let i=0; i<n.length; i++){
         let element = n[i]
         arr.unshift(element)
-    
     }
     console.log(arr.join(" "));
     });
