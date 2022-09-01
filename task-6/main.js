@@ -20,7 +20,7 @@ prompt.get('input', function (err, result) {
                 min=parseInt(n[i])
              }     
     }
-    console.log(`${max}\n${min}`);
+    console.log(`${min}\n${max}`);
     }
 });
    
