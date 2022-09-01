@@ -12,7 +12,6 @@ prompt.get('input', function (err, result) {
             max=parseInt(n[i]) 
         }
     }
-   
     for(let i = 0; i<n.length; i++){
       if(n[i]<max && n[i]>second_max){
           second_max=parseInt(n[i])
